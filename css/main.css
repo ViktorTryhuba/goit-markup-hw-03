@@ -30,6 +30,10 @@ button { cursor: pointer;}
 
 .link { text-decoration: none; }
 
+address {
+    font-style: normal;
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -52,9 +56,8 @@ body {
 
 /* =================HEADER=================== */
 
-.page-header { border-bottom:solid #ECECEC; }
-
-.page-header-container {
+.page-header { 
+    border-bottom:solid #ECECEC;
     padding-bottom: 25px;
     padding-top: 24px;
 }
@@ -98,8 +101,6 @@ body {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: inherit;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-contact{
@@ -132,16 +133,15 @@ body {
 /* =================HEADER=================== */
 /* =================FOOTER=================== */
 
-.footer { background-color: #2F303A; }
-
-.footer-container { 
+.footer { 
+    background-color: #2F303A; 
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer-nav .logo-web { margin-right: 0; }
+.footer-container .logo-web { margin-right: 0; }
 
-.footer-nav .logo-studio { color: var(--secondary-color); }
+.footer-container .logo-studio { color: var(--secondary-color); }
 
 .footer-menu { margin-top: 20px; }
 
