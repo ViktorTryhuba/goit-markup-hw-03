@@ -56,6 +56,11 @@ body {
 
 /* =================HEADER=================== */
 
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
 .page-header { 
     border-bottom:solid #ECECEC;
     padding-bottom: 25px;
@@ -109,7 +114,9 @@ body {
     margin-left: auto;
 }
 
-.header-contact-email { margin-right: 50px; }
+.header-contact-item:nth-last-child(n+2) {
+    margin-right: 40px;
+}
 
 .header-contact-email,
 .header-contact-phone-number {
@@ -139,11 +146,13 @@ body {
     padding-bottom: 60px;
 }
 
-.footer-container .logo-web { margin-right: 0; }
+.footer-container .logo-web { 
+    margin-right: 0;
+    display: block;
+    margin-bottom: 20px;
+}
 
 .footer-container .logo-studio { color: var(--secondary-color); }
-
-.footer-menu { margin-top: 20px; }
 
 .footer-menu-item:not(:last-child) { margin-bottom: 9px; }
 
