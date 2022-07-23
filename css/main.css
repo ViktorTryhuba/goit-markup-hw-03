@@ -114,6 +114,10 @@ body {
     margin-left: auto;
 }
 
+.studio, .portfolio {
+    color: var(--hover-color)
+} 
+
 .header-contact-item:nth-last-child(n+2) {
     margin-right: 40px;
 }
